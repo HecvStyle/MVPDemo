@@ -15,6 +15,8 @@
 		5DB103C51D700F95003CB514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB103C31D700F95003CB514 /* LaunchScreen.storyboard */; };
 		5DB103D01D700F95003CB514 /* MVPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB103CF1D700F95003CB514 /* MVPDemoTests.m */; };
 		5DB103DB1D700F96003CB514 /* MVPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB103DA1D700F96003CB514 /* MVPDemoUITests.m */; };
+		5DB103EA1D701110003CB514 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB103E91D701110003CB514 /* UserService.m */; };
+		5DB103ED1D7016DC003CB514 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB103EC1D7016DC003CB514 /* Presenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		5DB103D61D700F95003CB514 /* MVPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB103DA1D700F96003CB514 /* MVPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPDemoUITests.m; sourceTree = "<group>"; };
 		5DB103DC1D700F96003CB514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB103E81D701110003CB514 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		5DB103E91D701110003CB514 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		5DB103EB1D7016DC003CB514 /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		5DB103EC1D7016DC003CB514 /* Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		5DB103EE1D7018BE003CB514 /* UserViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,11 @@
 		5DB103B41D700F95003CB514 /* MVPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5DB103EE1D7018BE003CB514 /* UserViewProtocol.h */,
+				5DB103E81D701110003CB514 /* UserService.h */,
+				5DB103E91D701110003CB514 /* UserService.m */,
+				5DB103EB1D7016DC003CB514 /* Presenter.h */,
+				5DB103EC1D7016DC003CB514 /* Presenter.m */,
 				5DB103B81D700F95003CB514 /* AppDelegate.h */,
 				5DB103B91D700F95003CB514 /* AppDelegate.m */,
 				5DB103BB1D700F95003CB514 /* ViewController.h */,
@@ -270,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB103ED1D7016DC003CB514 /* Presenter.m in Sources */,
 				5DB103BD1D700F95003CB514 /* ViewController.m in Sources */,
+				5DB103EA1D701110003CB514 /* UserService.m in Sources */,
 				5DB103BA1D700F95003CB514 /* AppDelegate.m in Sources */,
 				5DB103B71D700F95003CB514 /* main.m in Sources */,
 			);
